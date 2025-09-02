@@ -1,0 +1,52 @@
+theme = 'PaperMod'
+baseURL = 'https://speeddrago.github.io/'
+languageCode = 'en-us'
+title = 'David Magalhães Blog'
+
+[[module.mounts]]
+source = 'static'
+target = 'static'
+
+[[module.mounts]]
+source = 'images'
+target = 'static/images'
+
+[params]
+env = 'production'
+keywords = ['security', 'elixir']
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+comments = true
+
+[[menu.main]]
+identifier = "categories"
+name = "categories"
+url = "/categories/"
+weight = 10
+
+[[menu.main]]
+identifier = "tags"
+name = "tags"
+url = "/tags/"
+weight = 20
+
+[[menu.main]]
+identifier = "github"
+name = "GitHub"
+url = "https://github.com/speeddragon"
+weight = 30
+
+[services.googleAnalytics]
+ID = 'G-7KQHSZCH69'
+
+[fuseOpts]
+isCaseSensitive = false
+shouldSort = true
+location = 0
+distance = 1_000
+threshold = 0.4
+minMatchCharLength = 0
+limit = 10
+keys = [ "title", "permalink", "summary", "content" ]
+
