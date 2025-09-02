@@ -53,6 +53,6 @@ We must be aware that since this is a deprecated service, it can be removed anyt
 
 # Conclusion
 
-Why this can happens? Mostly on big companies that they forget to shutdown the service or will take some time to decommission it.
+How this can happen? Mostly on big companies that they forget to shutdown the old service or will take some time to decommission it and forgot about it.
 
 Will this work frequently? I don't think so, this can work in some scenarios, a good thing to have in hand as a toolbox.
