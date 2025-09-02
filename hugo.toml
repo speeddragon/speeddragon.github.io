@@ -1,5 +1,5 @@
 theme = 'PaperMod'
-baseURL = 'https://speeddrago.github.io/'
+baseURL = 'https://speeddragon.github.io/'
 languageCode = 'en-us'
 title = 'David Magalhães Blog'
 
