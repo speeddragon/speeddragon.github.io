@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>David Magalhães Blog</title><link>https://speeddragon.github.io/</link><description>Recent content on David Magalhães Blog</description><generator>Hugo -- 0.149.0</generator><language>en-us</language><lastBuildDate>Mon, 01 Sep 2025 17:39:34 +0100</lastBuildDate><atom:link href="https://speeddragon.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Bypass WAF</title><link>https://speeddragon.github.io/security/bypass_waf/</link><pubDate>Mon, 01 Sep 2025 17:39:34 +0100</pubDate><guid>https://speeddragon.github.io/security/bypass_waf/</guid><description>&lt;h1 id="intro"&gt;Intro&lt;/h1&gt;
-&lt;p&gt;The people that creates or uses crawlers to fetch information from a web page, know that you can lose access if the website owner add a WAF (Web Application Firewall) to the web page. This will make your life more difficult.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>SpeedDragon Blog</title><link>https://speeddragon.github.io/</link><description>Recent content on SpeedDragon Blog</description><generator>Hugo -- 0.149.1</generator><language>en-us</language><lastBuildDate>Mon, 01 Sep 2025 17:39:34 +0100</lastBuildDate><atom:link href="https://speeddragon.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Bypass WAF</title><link>https://speeddragon.github.io/security/bypass_waf/</link><pubDate>Mon, 01 Sep 2025 17:39:34 +0100</pubDate><guid>https://speeddragon.github.io/security/bypass_waf/</guid><description>&lt;h1 id="intro"&gt;Intro&lt;/h1&gt;
+&lt;p&gt;The people that creates or uses crawlers to fetch information from a web page, know that you can lose access if the website owner add a WAF (Web Application Firewall) to the web page. This will certainly make your life more difficult.&lt;/p&gt;
 &lt;p&gt;Some examples of WAF are:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;CloudFlare WAF&lt;/li&gt;
@@ -8,7 +8,7 @@
 &lt;/ul&gt;
 &lt;h1 id="how-it-work"&gt;How it work?&lt;/h1&gt;
 &lt;p&gt;&lt;img alt="WAF example" loading="lazy" src="https://speeddragon.github.io/images/waf_example.jpg#center"&gt;
-&lt;em&gt;&lt;a href="https://pt-corp.storage.yandexcloud.net/upload/corporate/ww-en/download/PT-devteev-CC-WAF-ENG.pdf"&gt;Ref&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;em&gt;&lt;a href="https://pt-corp.storage.yandexcloud.net/upload/corporate/ww-en/download/PT-devteev-CC-WAF-ENG.pdf"&gt;Credits&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Normally sits between the client and the server.&lt;/li&gt;
 &lt;li&gt;Monitor and filters HTTP traffic between server and clients.&lt;/li&gt;
@@ -20,4 +20,4 @@
 &lt;li&gt;Blocks malicious traffic.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id="story"&gt;Story&lt;/h1&gt;
-&lt;p&gt;Recently one one of my crawler stopped working. After a quick look the website changed, but not only that they also added a WAF to it. My first reaction was to try to find a way to bypass it, searched for a bit but I didn&amp;rsquo;t find anything.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;In one of my side projects I maintain some crawlers. Recently one stopped working after the website changed, but that wasn&amp;rsquo;t the only reason for the crawler to stop working, they also added a WAF to it.&lt;/p&gt;</description></item></channel></rss>
