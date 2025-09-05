@@ -1,7 +1,7 @@
 theme = 'PaperMod'
 baseURL = 'https://speeddragon.github.io/'
 languageCode = 'en-us'
-title = 'David Magalhães Blog'
+title = 'SpeedDragon Blog'
 
 [[module.mounts]]
 source = 'static'
