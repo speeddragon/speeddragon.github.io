@@ -1,10 +1,12 @@
-+++
-date = '2025-09-01T17:39:34+01:00'
-draft = false
-title = 'Bypass WAF'
-tags = ["security", "waf"]
-categories = 'Security'
-+++
+---
+categories: Security
+date: "2025-09-01T17:39:34+01:00"
+draft: false
+tags:
+- security
+- waf
+title: Bypass WAF
+---
 # Intro
 The people that creates or uses crawlers to fetch information from a web page, know that you can lose access if the website owner add a WAF (Web Application Firewall) to the web page. This will certainly make your life more difficult. 
 
@@ -17,7 +19,10 @@ Some examples of WAF are:
 # How it work?
 
 ![WAF example](/images/waf_example.jpg#center)
-*[Credits](https://pt-corp.storage.yandexcloud.net/upload/corporate/ww-en/download/PT-devteev-CC-WAF-ENG.pdf)*
+<p class="image-description">
+https://pt-corp.storage.yandexcloud.net/upload/corporate/ww-en/download/PT-devteev-CC-WAF-ENG.pdf
+</p>
+
 - Normally sits between the client and the server.
 - Monitor and filters HTTP traffic between server and clients.
 - Contains complex rules to detect malicious traffic.
