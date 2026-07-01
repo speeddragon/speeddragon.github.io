@@ -126,6 +126,8 @@ I used the previous schematic and the base for this one, and added the new compo
 
 The issue was regarding the voltage not being high enough for the frequency I was using, so I modified the resistor value before the conversion to the AC signal to allow more current to flow. Modifying the 10k ohms to 4.7k ohms was enough, and now the signal was 5.6 volts, enough to reach over 82 km/h.
 
+![Speedometer Simulation Schematics](/images/s13_cluster_simulator-speedometer_simulator.png#center)
+
 ![EveryCircuit DC to AC](/images/everycircuit_dc_to_ac.png#center)
 
 {{< youtube 04n3l-273SY >}}
