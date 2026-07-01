@@ -6,4 +6,9 @@
 
 And check `http://localhost:1313/`
 
+## Keep it updated 
 
+```
+brew update hugo
+```
+```
